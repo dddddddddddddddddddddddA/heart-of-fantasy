@@ -1,0 +1,104 @@
+{
+  "quests": [
+    {
+      "id": "quest_1",
+      "title": "La Pierre Perdue",
+      "description": "Elara vous demande de trouver une pierre magique perdue dans les terres sombres.",
+      "character_id": "elara",
+      "reward_gold": 500,
+      "affinity_gain": 10,
+      "difficulty": "medium",
+      "location": "dark_lands"
+    },
+    {
+      "id": "quest_2",
+      "title": "Grimoire Ancien",
+      "description": "Lyssa cherche un ancien grimoire dans la bibliothèque interdite.",
+      "character_id": "lyssa",
+      "reward_gold": 450,
+      "affinity_gain": 12,
+      "difficulty": "medium",
+      "location": "forbidden_library"
+    },
+    {
+      "id": "quest_3",
+      "title": "Braquage de Luxe",
+      "description": "Kira vous propose de voler un trésor d'un seigneur maléfique.",
+      "character_id": "kira",
+      "reward_gold": 800,
+      "affinity_gain": 8,
+      "difficulty": "hard",
+      "location": "noble_mansion"
+    },
+    {
+      "id": "quest_4",
+      "title": "Purification du Temple",
+      "description": "Aria vous demande de purifier le temple ancien des créatures maléfiques.",
+      "character_id": "aria",
+      "reward_gold": 400,
+      "affinity_gain": 10,
+      "difficulty": "medium",
+      "location": "ancient_temple"
+    },
+    {
+      "id": "quest_5",
+      "title": "Harmonie de la Forêt",
+      "description": "Mira vous demande de restaurer l'harmonie dans la forêt enchantée.",
+      "character_id": "mira",
+      "reward_gold": 350,
+      "affinity_gain": 11,
+      "difficulty": "easy",
+      "location": "enchanted_forest"
+    },
+    {
+      "id": "quest_6",
+      "title": "Tournoi de Chevalerie",
+      "description": "Nova vous invite à participer au tournoi annuel de chevalerie.",
+      "character_id": "nova",
+      "reward_gold": 600,
+      "affinity_gain": 12,
+      "difficulty": "hard",
+      "location": "arena"
+    },
+    {
+      "id": "quest_7",
+      "title": "Le Criminel Masqué",
+      "description": "Zara vous aide à traquer un criminel dangereux qui terrorise la région.",
+      "character_id": "zara",
+      "reward_gold": 700,
+      "affinity_gain": 9,
+      "difficulty": "hard",
+      "location": "city_streets"
+    },
+    {
+      "id": "quest_8",
+      "title": "L'Élixir Ultime",
+      "description": "Iris vous confie la mission de trouver les ingrédients pour l'élixir ultime.",
+      "character_id": "iris",
+      "reward_gold": 550,
+      "affinity_gain": 10,
+      "difficulty": "medium",
+      "location": "various"
+    },
+    {
+      "id": "quest_9",
+      "title": "Concert Magique",
+      "description": "Sera vous demande de l'aider à préparer un concert extraordinaire.",
+      "character_id": "sera",
+      "reward_gold": 300,
+      "affinity_gain": 8,
+      "difficulty": "easy",
+      "location": "theater"
+    },
+    {
+      "id": "quest_10",
+      "title": "La Grande Chasse",
+      "description": "Thorn vous propose d'aller chasser une créature légendaire.",
+      "character_id": "thorn",
+      "reward_gold": 750,
+      "affinity_gain": 11,
+      "difficulty": "hard",
+      "location": "wild_frontier"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart of Fantasy - RPG Romantique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Écran d'accueil -->
+        <div id="welcome-screen" class="screen active">
+            <div class="welcome-content">
+                <h1>💕 Heart of Fantasy 💕</h1>
+                <p>Un jeu RPG narratif avec amour et aventure</p>
+                <div class="welcome-form">
+                    <input type="text" id="player-name" placeholder="Entrez votre nom...">
+                    <button onclick="startGame()">Commencer l'aventure</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Écran principal du jeu -->
+        <div id="game-screen" class="screen">
+            <div class="game-header">
+                <h2 id="location-name">Village du Ciel</h2>
+                <div class="game-stats">
+                    <span>Jour: <span id="day">1</span></span>
+                    <span>Heure: <span id="hour">12</span></span>
+                </div>
+            </div>
+
+            <div class="game-content">
+                <!-- Section de dialogue -->
+                <div id="dialogue-section" class="section">
+                    <div id="dialogue-box" class="dialogue-box">
+                        <p id="dialogue-text">Bienvenue dans le monde de Valoreth...</p>
+                    </div>
+                    <div id="dialogue-options" class="dialogue-options"></div>
+                </div>
+
+                <!-- Section de personnages -->
+                <div id="characters-section" class="section">
+                    <h3>Personnages dans la région</h3>
+                    <div id="characters-list" class="characters-list"></div>
+                </div>
+
+                <!-- Section d'exploration -->
+                <div id="exploration-section" class="section">
+                    <h3>Explorer</h3>
+                    <div id="locations-list" class="locations-list">
+                        <button onclick="explore('castle')">🏰 Château</button>
+                        <button onclick="explore('library')">📚 Bibliothèque</button>
+                        <button onclick="explore('tavern')">🍺 Taverne</button>
+                        <button onclick="explore('forest')">🌲 Forêt</button>
+                        <button onclick="explore('temple')">⛪ Temple</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-sidebar">
+                <!-- Panneau des relations -->
+                <div class="panel">
+                    <h3>💕 Relations</h3>
+                    <div id="affinities-panel" class="affinities-panel"></div>
+                </div>
+
+                <!-- Panneau des quêtes -->
+                <div class="panel">
+                    <h3>🎯 Quêtes</h3>
+                    <button onclick="viewQuests()">Voir les quêtes</button>
+                </div>
+
+                <!-- Panneau du joueur -->
+                <div class="panel">
+                    <h3>👤 Profil</h3>
+                    <p>Nom: <span id="player-name-display"></span></p>
+                    <p>Niveau: <span id="player-level">1</span></p>
+                    <p>Or: <span id="player-gold">0</span></p>
+                </div>
+
+                <!-- Contrôles -->
+                <div class="panel">
+                    <button onclick="saveGame()">💾 Sauvegarder</button>
+                    <button onclick="loadGame()">📂 Charger</button>
+                    <button onclick="mainMenu()">🏠 Menu</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Écran de dialogue -->
+        <div id="dialogue-screen" class="screen">
+            <div class="dialogue-container">
+                <button class="close-btn" onclick="closeDialogue()">✕</button>
+                <div id="character-portrait" class="character-portrait"></div>
+                <div class="dialogue-content">
+                    <h2 id="character-name-display"></h2>
+                    <div id="affinity-bar" class="affinity-bar"></div>
+                    <div id="main-dialogue-text" class="main-dialogue-text"></div>
+                    <div id="main-dialogue-options" class="dialogue-options"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Écran des quêtes -->
+        <div id="quests-screen" class="screen">
+            <div class="quests-container">
+                <button class="close-btn" onclick="closeQuests()">✕</button>
+                <h2>Quêtes Disponibles</h2>
+                <div id="quests-list" class="quests-list"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="api.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>

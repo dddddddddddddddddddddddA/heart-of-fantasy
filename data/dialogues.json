@@ -1,0 +1,123 @@
+{
+  "elara": {
+    "base": [
+      {
+        "text": "Bonjour. Vous semblez être quelqu'un d'intéressant.",
+        "options": [
+          {"text": "Merci, vous aussi", "response": "Elle hoche la tête", "affinity_change": 2},
+          {"text": "Vous me regardez bizarrement", "response": "Elle sourit légèrement", "affinity_change": -1}
+        ]
+      },
+      {
+        "text": "Les guerriers comme nous doivent rester forts.",
+        "options": [
+          {"text": "Je suis d'accord", "response": "Elle respecte votre position", "affinity_change": 3},
+          {"text": "Je ne suis pas guerrier", "response": "Elle hausse les épaules", "affinity_change": 1}
+        ]
+      }
+    ],
+    "acquaintance": [
+      {
+        "text": "J'aime votre compagnie. Vous êtes fiable.",
+        "options": [
+          {"text": "Vous l'êtes aussi", "response": "Elle vous regarde avec respect", "affinity_change": 3},
+          {"text": "Merci", "response": "Elle sourit légèrement", "affinity_change": 2}
+        ]
+      }
+    ],
+    "friend": [
+      {
+        "text": "Vous signifiez beaucoup pour moi, vous savez.",
+        "options": [
+          {"text": "Vous aussi pour moi", "response": "Elle place une main sur votre épaule", "affinity_change": 4},
+          {"text": "Je suis heureux de l'entendre", "response": "Elle rougit légèrement", "affinity_change": 3}
+        ]
+      }
+    ],
+    "lover": [
+      {
+        "text": "Je pense que... je suis tombée amoureuse de vous.",
+        "options": [
+          {"text": "Je t'aime aussi", "response": "Elle vous embrasse passionnément", "affinity_change": 5},
+          {"text": "Je ne sais pas quoi dire", "response": "Elle attend patiemment votre réponse", "affinity_change": 2}
+        ]
+      }
+    ]
+  },
+  "lyssa": {
+    "base": [
+      {
+        "text": "Intéressant. Vous avez une aura mystérieuse autour de vous.",
+        "options": [
+          {"text": "C'est vrai?", "response": "Elle sourit énigmatiquement", "affinity_change": 2},
+          {"text": "Je ne vois pas comment", "response": "Elle fronce les sourcils", "affinity_change": -1}
+        ]
+      }
+    ],
+    "acquaintance": [
+      {
+        "text": "J'aimerais discuter de théorie arcanique avec vous.",
+        "options": [
+          {"text": "Avec plaisir", "response": "Elle s'illumine de joie", "affinity_change": 4},
+          {"text": "C'est trop compliqué pour moi", "response": "Elle est légèrement déçue", "affinity_change": 0}
+        ]
+      }
+    ],
+    "friend": [
+      {
+        "text": "Vous me comprenez mieux que quiconque.",
+        "options": [
+          {"text": "C'est parce que je vous écoute vraiment", "response": "Elle rougit", "affinity_change": 4},
+          {"text": "Je suis heureux de vous comprendre", "response": "Elle sourit doucement", "affinity_change": 3}
+        ]
+      }
+    ],
+    "lover": [
+      {
+        "text": "Vous êtes la plus belle découverte que j'aie jamais faite.",
+        "options": [
+          {"text": "Tu es mon univers entier", "response": "Elle se rapproche de vous", "affinity_change": 5},
+          {"text": "Je te chéris", "response": "Elle entrelace ses doigts aux vôtres", "affinity_change": 4}
+        ]
+      }
+    ]
+  },
+  "kira": {
+    "base": [
+      {
+        "text": "Hé, vous! Vous cherchez de l'aventure, non?",
+        "options": [
+          {"text": "Toujours", "response": "Elle sourit malicieusement", "affinity_change": 3},
+          {"text": "Pas vraiment", "response": "Elle rit", "affinity_change": 1}
+        ]
+      }
+    ],
+    "acquaintance": [
+      {
+        "text": "Je sais que je peux vous faire confiance. C'est rare.",
+        "options": [
+          {"text": "Vous pouvez toujours me faire confiance", "response": "Elle vous fait un clin d'œil", "affinity_change": 4},
+          {"text": "Je ne te laisserai pas tomber", "response": "Elle serre votre main", "affinity_change": 3}
+        ]
+      }
+    ],
+    "friend": [
+      {
+        "text": "Vous êtes mon personne préférée au monde entier.",
+        "options": [
+          {"text": "Tu es aussi ma personne préférée", "response": "Elle vous embrasse sur la joue", "affinity_change": 4},
+          {"text": "C'est réciproque", "response": "Elle rougit légèrement", "affinity_change": 3}
+        ]
+      }
+    ],
+    "lover": [
+      {
+        "text": "Je t'aime. Et ça me terrife.",
+        "options": [
+          {"text": "Je t'aime aussi, n'aie pas peur", "response": "Elle se jette dans vos bras", "affinity_change": 5},
+          {"text": "L'amour est un beau risque", "response": "Elle vous embrasse", "affinity_change": 4}
+        ]
+      }
+    ]
+  }
+}
